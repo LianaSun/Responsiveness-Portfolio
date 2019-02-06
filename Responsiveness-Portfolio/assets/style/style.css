@@ -21,9 +21,16 @@ body{
   margin:0 auto;
   display: flex;
   flex-direction:column;
-  background-image: url("full-bloom.png")
+  background-image: url("assets/images/full-bloom.png")
 }
 
+.bio {
+  float: right;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 18px;
+}
 .content{
   padding:30px;
   margin:0 auto;
@@ -64,6 +71,7 @@ h3{
   width: 100%;
   background-color: teal;
 }
+
 
 ul{
 width: auto;
